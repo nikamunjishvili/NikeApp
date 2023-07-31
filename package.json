@@ -3,17 +3,18 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-		"android": "react-native run-android",
-		"ios": "react-native run-ios",
-		"check-types": "tsc --noemit",
-		"eslint": "eslint .",
-		"lint": "yarn eslint && yarn check-types",
-		"start": "react-native start",
-		"test": "jest"
-	},
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "check-types": "tsc --noemit",
+    "eslint": "eslint .",
+    "lint": "yarn eslint && yarn check-types",
+    "start": "react-native start",
+    "test": "jest"
+  },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.72.3"
+    "react-native": "0.72.3",
+    "react-native-svg": "^13.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
